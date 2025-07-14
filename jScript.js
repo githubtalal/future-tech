@@ -31,7 +31,7 @@ document.querySelectorAll('.third-container .container > div:last-of-type img').
 
 document.querySelector('button.contact-us').addEventListener("click", function () {
     let redirect = document.createElement('a')
-    a.href = 'contactUs.html'
-    a.click()
+    redirect.href = 'contactUs.html'
+    redirect.click()
 })
 
